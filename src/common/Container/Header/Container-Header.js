@@ -4,7 +4,9 @@ import { decl, Bem } from 'bem-react-core';
 //import Main from 'e:Main';
 
 export default decl({
-    block: 'Header',
+    block: 'Container',
+    elem: 'Header',
+    tag: 'header',
     content() {
         return (
             <Fragment>

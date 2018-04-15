@@ -1,0 +1,6 @@
+.Button_icon_actions {
+    width: 14px;
+    height: 4px;
+    background-size: 14px 4px;
+    background: url('./Actions.png') center no-repeat;
+}

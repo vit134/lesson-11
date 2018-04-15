@@ -1,0 +1,6 @@
+.Button_icon_heart {
+    width: 17px;
+    height: 16px;
+    background-size: 17px 16px;
+    background: url('./Heart.png') center no-repeat;
+}

@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 import { decl, Bem } from 'bem-react-core';
 
 import 'e:Logo';
-import LogoIcon from '../Logo/Container-Logo.png';
+import LogoIcon from '../Logo/Container-Logo@2x.png';
 
 export default decl({
     block: 'Container',

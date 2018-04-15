@@ -1,0 +1,8 @@
+.Container-Main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (2fr)[6];
+    grid-template-columns: repeat(6, 2fr);
+  grid-auto-flow: dense;
+  grid-gap: 38px 16px;
+}

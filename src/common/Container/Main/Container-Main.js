@@ -1,18 +1,17 @@
 import React, { Fragment } from 'react';
 import { decl } from 'bem-react-core';
 
-import Header from 'e:Header';
-import Main from 'e:Main';
+import data from './Data';
 
-import 'b:YSText';
+import Item from 'b:Item m:size_m m:size_s m:size_l m:size_text';
 
 export default decl({
     block: 'Container',
+    elem: 'Main',
     content() {
         return (
             <Fragment>
-                <Header />
-                <Main /> 
+                {data.map((post, i) => <Item key={i} {...post}/>)}
             </Fragment>
         );
     }

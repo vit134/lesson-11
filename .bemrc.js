@@ -11,8 +11,8 @@ module.exports = {
       scheme: 'nested'
     },
     {
-      layer: 'mobile',
-      path: 'src/mobile',
+      layer: 'phone',
+      path: 'src/phone',
       scheme: 'nested'
     }
   ],

@@ -4,3 +4,13 @@
     grid-template-columns: 2fr 1fr;
     grid-gap: 0 16px;
 }
+
+.Item_size_l .Item-Title {
+    font-size: 19px;
+    line-height: 23px;
+}
+
+.Item_size_l .Item-Description {
+    max-height: 160px;
+    width: auto;
+}

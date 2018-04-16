@@ -1,0 +1,4 @@
+.Item-Text-col {
+    display: grid;
+    grid-template-rows: max-content auto 40px;
+}

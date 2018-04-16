@@ -10,17 +10,9 @@ export default declMod({ size: 's' }, {
     content({ title, titleColor, description, image, channelName }) {
         return [
             this.__base(...arguments),
-            image ? (
-                <Bem elem="Image-Wrapper">
-                    <Bem elem="Item-Image" tag="img" src={`${image}@3x.png`}></Bem>
-                </Bem>
-            ) : ([
-                <Bem elem="Description">{description}</Bem>,
-                <Bem elem="Footer">
-                    <Bem elem="Author">{channelName}</Bem>
-                    <Buttons type="horizontal"/>
-                </Bem>    
-            ])
+            <Bem elem="Image-Wrapper">
+                <Bem elem="Item-Image" tag="img" src={`${image}@3x.png`}></Bem>
+            </Bem>
         ]
     }
 });

@@ -6,7 +6,7 @@ import Button from 'b:Button m:icon_actions m:icon_heart';
 export default decl({
     block: 'Buttons',
     mods() {
-        return { type: this.props.type }
+        return { type: this.props.type || 'horizontal' }
     },
     content() {
         return (

@@ -1,0 +1,15 @@
+@media screen and (max-width: 840px) {
+    .Item_size_l {
+        grid-template-columns: 100%;
+    }
+
+    .Item_size_l .Item-Text-col {
+        grid-template-columns: 7fr 1fr;
+        grid-template-rows: 1fr;
+        grid-gap: 0 25px;
+    }
+
+    .Item_size_l .Item-Description {
+        max-height: 62px;
+    }
+}

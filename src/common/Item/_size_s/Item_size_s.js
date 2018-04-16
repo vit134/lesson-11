@@ -1,5 +1,5 @@
 import React from 'react';
-import { declMod, Bem } from 'bem-react-core';
+import { declMod } from 'bem-react-core';
 
 import ImageWrapper from 'e:ImageWrapper';
 

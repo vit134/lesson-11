@@ -1,8 +1,7 @@
 import React, { Fragment } from 'react';
-import { decl, Bem } from 'bem-react-core';
+import { decl } from 'bem-react-core';
 
-import 'e:Logo';
-import LogoIcon from '../Logo/Container-Logo@2x.png';
+import Logo from 'b:Logo';
 
 export default decl({
     block: 'Container',
@@ -11,7 +10,7 @@ export default decl({
     content() {
         return (
             <Fragment>
-                <Bem elem="Logo" tag="img" src={LogoIcon} alt="logo"/>
+                <Logo />
             </Fragment>
         );
     }

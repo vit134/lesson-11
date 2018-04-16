@@ -1,4 +1,4 @@
-.Container-Main {
+.Main {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (2fr)[6];

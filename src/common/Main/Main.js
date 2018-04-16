@@ -6,8 +6,7 @@ import data from './Data';
 import Item from 'b:Item m:size_m m:size_s m:size_l m:size_text';
 
 export default decl({
-    block: 'Container',
-    elem: 'Main',
+    block: 'Main',
     content() {
         return (
             <Fragment>

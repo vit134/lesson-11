@@ -1,8 +1,8 @@
 import React, { Fragment } from 'react';
 import { decl } from 'bem-react-core';
 
-import Header from 'e:Header';
-import Main from 'e:Main';
+import Header from 'b:Header';
+import Main from 'b:Main';
 
 import 'b:YSText';
 

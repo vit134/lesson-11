@@ -1,0 +1,7 @@
+@media screen and (max-width: 649px) {
+    .Item_size_l .Item-Description-Text {
+        -webkit-column-count: 1;
+        column-count: 1;
+        width: 100%;
+    }
+}

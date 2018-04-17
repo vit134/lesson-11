@@ -1,27 +1,23 @@
 import React, { Fragment } from 'react';
 import { declMod, Bem } from 'bem-react-core';
 
-import Buttons from 'b:Buttons m:type_horizontal';
+import Buttons from 'b:Buttons m:type_vertical';
 import ImageWrapper from 'e:ImageWrapper';
-
-import 'e:Footer';
-import 'e:Description';
-import 'e:Text-col';
 
 export default declMod({ size: 'l' }, {
     block: 'Item',
     content({ title, description, image }) {
         return [
             <Fragment>
+                <Bem elem="Title">{title}</Bem>
                 <ImageWrapper image={image} />
                 <Bem elem="Text-col">
-                    <Bem elem="Title">{title}</Bem>
                     <Bem elem="Description">
                         <Bem elem="Description-Inner">
                             <Bem elem="Description-Text">{description}></Bem>
                         </Bem>
                     </Bem>
-                    <Buttons />
+                    <Buttons type="vertical"/>
                 </Bem>
             </Fragment>
         ]

@@ -1,0 +1,5 @@
+@media screen and (max-width: 649px) {
+    .Item-Title-Text {
+        max-height: 68px;
+    }
+}

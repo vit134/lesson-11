@@ -20,7 +20,7 @@ module.exports = {
   sets: {
     desktop: 'common',
     tablet: 'common tablet',
-    mobile: 'common mobile'
+    phone: 'common phone'
   },
   modules: {
     'bem-tools': {

@@ -1,0 +1,18 @@
+@media screen and (max-width: 649px) {
+    .Item_size_s {
+        -ms-grid-column: span 3;
+        grid-column: span 3;
+    }
+
+    .Item_size_s .Item-Title {
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .Item_size_s {
+        -ms-grid-column: span 6;
+        grid-column: span 6;
+    }
+}

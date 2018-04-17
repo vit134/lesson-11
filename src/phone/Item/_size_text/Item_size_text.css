@@ -1,0 +1,13 @@
+@media screen and (max-width: 649px) {
+    .Item_size_text {
+        -ms-grid-column: span 3;
+        grid-column: span 3;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .Item_size_text {
+        -ms-grid-column: span 6;
+        grid-column: span 6;
+    }
+}

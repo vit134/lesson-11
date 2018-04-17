@@ -5,9 +5,10 @@ const path = require('path');
 const app = express();
 const PORT = 3001;
 
-app.use((req, res) => {
+app.get('/', (req, res, next) => {
     const userAgent = req.header('user-agent');
     const { type } = device(userAgent);
+    
     res.sendFile(path.join(__dirname, '../build', `${type}.html`));
 });
 

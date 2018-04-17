@@ -1,13 +1,22 @@
 .Item_size_l {
-    grid-column: span 6;
+    -ms-grid-column: span 6;
+      grid-column: span 6;
+    display: -ms-grid;
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    -ms-grid-columns: 2fr 1fr;
+        grid-template-columns: 2fr 1fr;
     grid-gap: 0 16px;
+    max-height: 364px;
 }
 
 .Item_size_l .Item-Title {
-    font-size: 19px;
-    line-height: 23px;
+    font-size: 24px;
+    line-height: 26px;
+    height: auto;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    -ms-flex-positive: 0;
+        flex-grow: 0;
 }
 
 .Item_size_l .Item-Description {
